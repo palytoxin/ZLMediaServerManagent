@@ -92,7 +92,7 @@ namespace ZLMediaServerManagent
 
 
             initDataBase(ref services);
-            
+
             services.AddHostedService<ZLBackGroundTask>();
             // services.AddHostedService<ZLBackSnapGroundTask>();
         }

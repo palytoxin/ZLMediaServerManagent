@@ -5,6 +5,13 @@
 [![platform](https://img.shields.io/badge/platform-linux%20|%20macos%20|%20windows-green.svg)](https://github.com/MingZhuLiu/ZLMediaServerManagent)
 [![Build Status](https://img.shields.io/static/v1?label=Develop&message=building&color=yellow)](https://github.com/MingZhuLiu/ZLMediaServerManagent)
 
+## Archlinux 依赖包
+
+```
+aspnet-runtime
+dotnet-sdk
+```
+
 ## 项目特点
 * 基于.NetCore开发，可跨平台，可以打包编译出不依赖运行时的可执行程序。
 * 前端页面使用Bootstrap框架。
@@ -51,7 +58,7 @@
 
   * 服务器配置
   ![avatar](https://raw.githubusercontent.com/MingZhuLiu/ZLMediaServerManagent/master/wwwroot/imgs/template/服务器配置修改.jpg)
-  
+
   * 域名和应用(对应拉流中的参数vHost和app)
   ![avatar](https://raw.githubusercontent.com/MingZhuLiu/ZLMediaServerManagent/master/wwwroot/imgs/template/域名和应用管理.jpg)
 
@@ -77,4 +84,3 @@
 
 
 
-  
